@@ -23,7 +23,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsc",
+        "build": "npx tsc",
         "prepublishOnly": "bun run build"
     },
     "devDependencies": {
