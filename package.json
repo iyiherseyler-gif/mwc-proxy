@@ -23,7 +23,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "npx tsc",
+        "build": "node ./node_modules/typescript/bin/tsc",
         "prepublishOnly": "bun run build"
     },
     "devDependencies": {
